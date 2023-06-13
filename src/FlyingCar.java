@@ -1,4 +1,4 @@
-public class FlyingCar implements Flyable {
+public class FlyingCar implements Flyable, Driveable {
     @Override
     public void takeOff() {
 
@@ -11,6 +11,21 @@ public class FlyingCar implements Flyable {
 
     @Override
     public void changeHeight() {
+
+    }
+
+    @Override
+    public void accelerate() {
+
+    }
+
+    @Override
+    public void brake() {
+
+    }
+
+    @Override
+    public void changeGear() {
 
     }
 }
